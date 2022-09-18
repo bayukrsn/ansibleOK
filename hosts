@@ -1,0 +1,2 @@
+[linux]
+192.168.0.103 ansible_sudo_user=root ansible_sudo_password=gading ansible_user=gading ansible_password=gading
