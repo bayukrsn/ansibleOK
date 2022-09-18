@@ -1,9 +1,9 @@
 ---
 - name: check ansible playbook
   hosts: linux
-  become: true
+  gather_facts: no
 
   tasks:
-     - name: This command will change the working directory to somedir/
+     - name: check ls home
        ansible.builtin.shell:
         cmd: ls -l /home/gading
